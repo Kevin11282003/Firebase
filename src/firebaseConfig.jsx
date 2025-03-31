@@ -3,13 +3,13 @@ import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCvTpYbMvjVW_wQ_9pVk08l8SQ6azP4OVk",
-    authDomain: "melo-37ab5.firebaseapp.com",
-    projectId: "melo-37ab5",
-    storageBucket: "melo-37ab5.firebasestorage.app",
-    messagingSenderId: "587191030710",
-    appId: "1:587191030710:web:888373e2e71cc411592717"
-  };
+  apiKey: "AIzaSyA70h_1NC8iuA2McQDwMCz6Y4U7YPjcRkI",
+  authDomain: "datos-57ac7.firebaseapp.com",
+  projectId: "datos-57ac7",
+  storageBucket: "datos-57ac7.firebasestorage.app",
+  messagingSenderId: "480042261394",
+  appId: "1:480042261394:web:bf8e5f521c7b6c634cff4b"
+};   
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
